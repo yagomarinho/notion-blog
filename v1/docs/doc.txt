@@ -1,0 +1,8 @@
+Problemas que precisam ser resolvidos:
+- SEO (o blog precisa gerar SEO consistente para ranquear bem nos buscadores)
+- Bundle (o tamanho o programa usado no backend está grande demais e pode gerar problemas de custos)
+- CORS (a api está com CORS geral, isto é um problema)
+
+------------
+Outros tópicos:
+- Compartilhar o código aberto no meu github para que possam avaliar a qualidade

@@ -1,0 +1,30 @@
+{
+  "name": "@yagomarinho/api",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "build": "rimraf ./dist && tsc",
+    "dev": "tsnd --respawn --transpile-only --ignore-watch node_modules src/index.ts",
+    "start": "node ./dist/index.js"
+  },
+  "author": {
+    "name": "Yago Marinho",
+    "email": "marinho.rj2@hotmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yagomarinho/yagomarinho.com.br.git"
+  },
+  "dependencies": {
+    "@notionhq/client": "^5.1.0",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "notion-client": "^7.6.0",
+    "notion-types": "^7.6.0",
+    "rimraf": "^6.0.1"
+  }
+}
