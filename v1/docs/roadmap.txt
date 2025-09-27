@@ -1,5 +1,0 @@
-Ideias para o futuro:
-
-- Indicador de tempo e momento de leitura
-- Botão de voltar ao ínicio
-- Implementar um meio de receber doações
