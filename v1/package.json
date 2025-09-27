@@ -1,5 +1,5 @@
 {
-  "name": "@yagomarinho/system",
+  "name": "@blog/system",
   "private": true,
   "workspaces": {
     "packages": [
@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@types/node": "^24.5.2",
-    "@yagomarinho/eslint": "*",
+    "@blog/eslint": "*",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5"
   }

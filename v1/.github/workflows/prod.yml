@@ -17,12 +17,10 @@ jobs:
     steps:
       - name: Deploy via git clone + build + pm2
         run: |
-          eval "$(ssh-agent -s)"
-          ssh-add ~/.ssh/ghk
           cd ~/apps
-          rm -rf yagomarinho.com.br
-          git clone git@github.com:yagomarinho/yagomarinho.com.br.git
-          cd yagomarinho.com.br
+          rm -rf notion-blog
+          git clone git@github.com:yagomarinho/notion-blog.git
+          cd notion-blog
           yarn
-          yarn workspace @yagomarinho/api run build
+          yarn workspace @blog/api run build
           pm2 restart api

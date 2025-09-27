@@ -1,5 +1,5 @@
 {
-  "name": "@yagomarinho/eslint",
+  "name": "@blog/eslint",
   "private": true,
   "version": "0.1.0",
   "main": "eslint.config.mjs",

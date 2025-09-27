@@ -1,5 +1,5 @@
 {
-  "name": "@yagomarinho/api",
+  "name": "@blog/api",
   "private": true,
   "version": "0.1.0",
   "scripts": {

@@ -1,3 +1,3 @@
-import config from '@yagomarinho/eslint'
+import config from '@blog/eslint'
 
 export default config
