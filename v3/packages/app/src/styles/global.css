@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.notion-h-title,
+.notion-link,
+.notion-table-of-contents-item {
+  @apply !text-white;
+}
