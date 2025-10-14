@@ -1,0 +1,13 @@
+# dependencies
+node_modules
+
+# production files
+dist
+build
+
+# test environment
+coverage
+
+# environment variables
+.env*
+!.env.example
