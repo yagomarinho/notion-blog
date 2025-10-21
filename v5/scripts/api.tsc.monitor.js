@@ -9,7 +9,7 @@ const start = Date.now()
 let maxMem = 0
 
 // Inicia o processo do build (usando o shell para suportar 'yarn build')
-const build = spawn('yarn', ['workspace', '@yagomarinho/api', 'run', 'build'], {
+const build = spawn('yarn', ['workspace', '@notion-blog/api', 'run', 'build'], {
   shell: true,
   stdio: 'inherit',
 })

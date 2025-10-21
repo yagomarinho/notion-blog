@@ -1,3 +1,3 @@
-import config from '@yagomarinho/eslint'
+import config from '@notion-blog/eslint'
 
 export default config
