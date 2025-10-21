@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /
 
-Sitemap: https://yagomarinho.com.br/sitemap.xml
+Sitemap: https://notionblog.com.br/sitemap.xml

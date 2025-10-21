@@ -1,5 +1,5 @@
 {
-  "name": "@yagomarinho/system",
+  "name": "@notion-blog/system",
   "private": true,
   "workspaces": {
     "packages": [
@@ -8,17 +8,17 @@
     ]
   },
   "author": {
-    "name": "Yago Marinho",
+    "name": "Notion Blog",
     "email": "marinho.rj2@hotmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yagomarinho/yagomarinho.com.br.git"
+    "url": "git+https://github.com/yagomarinho/notion-blog.git"
   },
   "devDependencies": {
     "@types/node": "^24.5.2",
-    "@yagomarinho/eslint": "*",
-    "@yagomarinho/jest": "*",
+    "@notion-blog/eslint": "*",
+    "@notion-blog/jest": "*",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5"
   }

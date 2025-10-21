@@ -1,16 +1,16 @@
 {
-  "name": "@yagomarinho/jest",
+  "name": "@notion-blog/jest",
   "private": true,
   "version": "0.1.0",
   "main": "jest.config.ts",
   "type": "module",
   "author": {
-    "name": "Yago Marinho",
+    "name": "Notion Blog",
     "email": "marinho.rj2@hotmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yagomarinho/yagomarinho.com.br.git"
+    "url": "git+https://github.com/yagomarinho/notion-blog.git"
   },
   "dependencies": {
     "@types/jest": "^30.0.0",

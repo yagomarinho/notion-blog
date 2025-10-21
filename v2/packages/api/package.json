@@ -1,5 +1,5 @@
 {
-  "name": "@yagomarinho/api",
+  "name": "@notion-blog/api",
   "private": true,
   "version": "0.1.0",
   "scripts": {
@@ -8,12 +8,12 @@
     "start": "node ./dist/index.js"
   },
   "author": {
-    "name": "Yago Marinho",
+    "name": "Notion Blog",
     "email": "marinho.rj2@hotmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yagomarinho/yagomarinho.com.br.git"
+    "url": "git+https://github.com/yagomarinho/notion-blog.git"
   },
   "dependencies": {
     "@notionhq/client": "^5.1.0",

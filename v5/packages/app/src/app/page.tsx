@@ -38,14 +38,14 @@ const Home = async () => {
           <div className="flex flex-col justify-center items-center gap-8 w-full">
             <div>
               <span className="font-inter font-medium text-xl italic">
-                Olá, eu sou <b>Yago Marinho</b>
+                Olá, eu sou <b>Notion Blog</b>
               </span>
             </div>
             <div className="flex flex-col justify-center items-center gap-2 w-full">
               <div className="relative w-24 h-24 rounded-full overflow-hidden">
                 <Image
                   fill
-                  alt="Imagem do autor do blog Yago Marinho"
+                  alt="Imagem do autor do blog Notion Blog"
                   src="https://scontent-gru1-2.cdninstagram.com/v/t51.2885-19/453084866_1525912401342730_5457675582169305743_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-gru1-2.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2QFqn7-47Wlrkt37vM67A_veBPheUgxxMU-mZtzP8CUMsY0WI1x3W90nDEzC9E6ZtZ-WwOspDq-cgiX8a5J4MF2i&_nc_ohc=vs3bko0NoQYQ7kNvwGBP9bz&_nc_gid=h_suDKjcnvgiZ_UmBH7dhw&edm=ALGbJPMBAAAA&ccb=7-5&oh=00_AfeJbeQx25f20JE6asCotZwGFhLZUSJ9TzyEIbV-LedA2A&oe=68FC527C&_nc_sid=7d3ac5"
                 />
               </div>

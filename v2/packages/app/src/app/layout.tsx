@@ -19,7 +19,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Yago Marinho | Blog',
+  title: 'Notion Blog | Blog',
   description:
     'Blog Tech: Práticas modernas, arquiteturas escaláveis, testes, APIs e manutenção de aplicações web.',
 }

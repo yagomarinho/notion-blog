@@ -1,5 +1,5 @@
 {
-  "name": "@blog/blog",
+  "name": "@notion-blog/blog",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,12 @@
     "lint": "eslint"
   },
   "author": {
-    "name": "Yago Marinho",
+    "name": "Notion Blog",
     "email": "marinho.rj2@hotmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yagomarinho/yagomarinho.com.br.git"
+    "url": "git+https://github.com/yagomarinho/notion-blog.git"
   },
   "dependencies": {
     "@vercel/analytics": "^1.5.0",

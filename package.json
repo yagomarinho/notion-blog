@@ -1,8 +1,8 @@
 {
-  "name": "@blog/blog",
+  "name": "@notion-blog/blog",
   "private": true,
   "author": {
-    "name": "Yago Marinho",
+    "name": "Notion Blog",
     "email": "marinho.rj2@hotmail.com"
   },
   "repository": {
