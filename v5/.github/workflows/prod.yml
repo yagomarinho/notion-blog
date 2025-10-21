@@ -1,0 +1,28 @@
+name: Deploy API (PM2)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'packages/api/**'
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+    concurrency:
+      group: deploy-api
+      cancel-in-progress: false
+
+    steps:
+      - name: Deploy via git clone + build + pm2
+        run: |
+          eval "$(ssh-agent -s)"
+          ssh-add ~/.ssh/ghk
+          cd ~/apps
+          rm -rf yagomarinho.com.br
+          git clone git@github.com:yagomarinho/yagomarinho.com.br.git
+          cd yagomarinho.com.br
+          yarn
+          yarn workspace @yagomarinho/api run build
+          pm2 restart api
